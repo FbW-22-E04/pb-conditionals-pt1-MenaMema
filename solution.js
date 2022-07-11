@@ -17,19 +17,19 @@ const b = 3;
 const c = 6;
 
 if (a > b && a > c) {
-  console.log("a is the biggest", a);
+  console.log(a);
 } else if (b > a && b > c) {
-  console.log("b is the biggest", b);
+  console.log(b);
 } else {
-  console.log("c is the biggest", c);
+  console.log(c);
 }
 
 if (int1 > int2 && int1 > int3) {
-  console.log("int1 is the biggest", int1);
+  console.log(int1);
 } else if (int2 > int1 && int2 > int3) {
-  console.log("int2 is the biggest", int2);
+  console.log(int2);
 } else {
-  console.log("int3 is the biggest", int3);
+  console.log(int3);
 }
 
 const str = "thon";
